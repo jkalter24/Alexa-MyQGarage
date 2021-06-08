@@ -5,7 +5,7 @@ import time
 import myq
 
 USERNAME = "jkalter66"
-PASSWORD = "<MYQ_LOGIN_PASSWORD>"
+PASSWORD = "Darwin18@"
 mq = myq.MyQ(USERNAME,PASSWORD)
 
 def lambda_handler(event, context):
