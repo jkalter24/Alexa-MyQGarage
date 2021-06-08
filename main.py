@@ -4,7 +4,7 @@ import json
 import time
 import myq
 
-USERNAME = "<MYQ_LOGIN_USERNAME>"
+USERNAME = "jkalter66"
 PASSWORD = "<MYQ_LOGIN_PASSWORD>"
 mq = myq.MyQ(USERNAME,PASSWORD)
 
