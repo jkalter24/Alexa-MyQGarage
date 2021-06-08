@@ -10,7 +10,7 @@ mq = myq.MyQ(USERNAME,PASSWORD)
 
 def lambda_handler(event, context):
 
-    if event['session']['application']['applicationId'] != "amzn1.ask.skill.<your-alexa-skills-id>":
+    if event['session']['application']['applicationId'] != "amzn1.ask.skill.641fe3a1-b46f-42bc-ab19-1e6561f12691":
         print "Invalid Application ID"
         raise
     else:
